@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>E-waste Center Locator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+    <div class="heading">
+        <h2 class="title">E-waste Center Locator</h2>
+    </div>
+
+    <div class="container">
+        <div class="wrapper">
+            <form action="">
+                <h1>Login</h1>
+                <div class="inputBox">
+                    <input type="text" placeholder="Username" required>
+                </div>
+    
+                <div class="inputBox">
+                    <input type="password" placeholder="Password" required>
+                </div>
+    
+                <div class="remember_forgot">
+                    <label>
+                        <input type="checkbox"> Remember me
+                        <a href="#">Forgot password</a>
+                    </label>
+                </div>
+    
+                <button type="submit" class="btn">Login</button>
+                <div class="register_link">
+                    <p>Don't have an account?<a href="#">Register</a></p>
+                </div>
+    
+            </form>
+        </div>
+
+        <div class="location">
+            <h1>Nearest E-Waste Center</h1>
+            <div class="inputBox">
+                <input type="text" id="userLocation" placeholder="Enter your location">
+            </div>
+            <button id="findLocationButton" class="btn">Find E-Waste Center</button>
+            <div id="locationInfo">
+
+            </div>
+        </div>
+    </div>
+    <script src='script.js'></script>
+</body>
+</html>
